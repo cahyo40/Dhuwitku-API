@@ -179,10 +179,6 @@ _response_
 }
 ```
 
-```dart
-Text("sukses",style:TextStyle())
-```
-
 </details>
 
 ## Keuangan
