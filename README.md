@@ -6,12 +6,12 @@
   - [Login](https://github.com/cahyo40/Dhuwitku-API#login)
   - [Register](https://github.com/cahyo40/Dhuwitku-API#register)
 - [Kategori](https://github.com/cahyo40/Dhuwitku-API#kategori)
-  - [Fetch](https://github.com/cahyo40/Dhuwitku-API#kategori)
+  - [Fetch](https://github.com/cahyo40/Dhuwitku-API#fetch-kategori)
   - [Create](https://github.com/cahyo40/Dhuwitku-API#kategori)
   - [Delete](https://github.com/cahyo40/Dhuwitku-API#kategori)
   - [Update](https://github.com/cahyo40/Dhuwitku-API#kategori)
   - [Filter](https://github.com/cahyo40/Dhuwitku-API#kategori)
-- [Keuangan](https://github.com/cahyo40/Dhuwitku-API#kategori)
+- [Keuangan](https://github.com/cahyo40/Dhuwitku-API#keuangan)
   - [Fetch](https://github.com/cahyo40/Dhuwitku-API#kategori)
   - [Fetch_by_Kategori](https://github.com/cahyo40/Dhuwitku-API#kategori)
   - [Fetch_by_Tanggal](https://github.com/cahyo40/Dhuwitku-API#kategori)
@@ -34,6 +34,7 @@ penggunaan dasar
 
 ### Login
 
+<details>
 _contoh request_
 
 ```json
@@ -51,6 +52,8 @@ _response_
   "token": "Token"
 }
 ```
+
+</details>
 
 ### Register
 
