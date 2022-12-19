@@ -18,6 +18,8 @@ penggunaan dasar
 
 [base_url/login](https://base_url/login)
 
+**method:_POST_**
+
 **request**
 | name|type|
 |-----|----|
@@ -51,6 +53,8 @@ berikut contoh response dari login
 **penggunaannya :**
 
 [base_url/register](https://base_url/register)
+
+**method:_POST_**
 
 **request**
 | name|type|
