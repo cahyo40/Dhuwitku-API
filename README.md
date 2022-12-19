@@ -11,7 +11,7 @@
   - [Delete](https://github.com/cahyo40/Dhuwitku-API#kategori)
   - [Update](https://github.com/cahyo40/Dhuwitku-API#kategori)
   - [Filter](https://github.com/cahyo40/Dhuwitku-API#kategori)
-- Keuangan
+- [Keuangan](https://github.com/cahyo40/Dhuwitku-API#kategori)
   - [Fetch](https://github.com/cahyo40/Dhuwitku-API#kategori)
   - [Fetch_by_Kategori](https://github.com/cahyo40/Dhuwitku-API#kategori)
   - [Fetch_by_Tanggal](https://github.com/cahyo40/Dhuwitku-API#kategori)
@@ -72,12 +72,12 @@ berikut contoh response dari login
 method: **_POST_**
 
 **request**
-| name|type|
-|-----|----|
-|email|string|
-|name|string|
-|username|string|
-|password|string|
+|fungsi |method |url |
+|----- |---- |--- |
+|fetch |GET | `/` |
+|create |POST | `/` |
+|update |PATCH | `/:id`|
+|delete |DELETE | `/:id`|
 
 _contoh request untuk register_
 
@@ -105,6 +105,17 @@ _contoh request untuk register_
   }
 }
 ```
+
+## Kategori
+
+penggunaan dasar
+
+| name     | type   |
+| -------- | ------ |
+| email    | string |
+| name     | string |
+| username | string |
+| password | string |
 
 ## Kategori
 
