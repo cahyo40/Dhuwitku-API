@@ -27,6 +27,11 @@
 
 penggunaan dasar
 
+| fungsi   | method | url         | request                      |
+| -------- | ------ | ----------- | ---------------------------- |
+| login    | POST   | `/login`    | email,password               |
+| register | POST   | `/register` | email,name,username,password |
+
 ### Login
 
 **penggunaannya :**
@@ -117,6 +122,6 @@ penggunaan dasar
 | update | PATCH  | `/:id` |
 | delete | DELETE | `/:id` |
 
-## Kategori
+## Keuangan
 
 penggunaan dasar
