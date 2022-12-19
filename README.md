@@ -54,8 +54,6 @@ _response_
 
 ### Register
 
-**penggunaannya :**
-
 _contoh request untuk register_
 
 ```json
