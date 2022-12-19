@@ -18,11 +18,11 @@ penggunaan dasar
 |email|string|
 |password|string|
 
-_contoh_
+_contoh request untuk login_
 
 ```json
 {
-  "email": "email",
+  "email": "mail@mail.com",
   "password": "password"
 }
 ```
