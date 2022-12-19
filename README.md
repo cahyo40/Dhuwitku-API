@@ -2,10 +2,9 @@
 
 **menggunakan node js, express js, mysql, Jwt dengan enkripsi dari bcrypt**
 
-- Auth
+- [Auth](https://github.com/cahyo40/Dhuwitku-API#auth)
   - [Login](https://github.com/cahyo40/Dhuwitku-API#login)
-  - [link ke petanikode](https://github.com/cahyo40/Dhuwitku-API#login)
-  - Register
+  - [Register](https://github.com/cahyo40/Dhuwitku-API#register)
 - Kategori
 - Keuangan
 
