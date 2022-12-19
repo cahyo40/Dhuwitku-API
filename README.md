@@ -8,8 +8,11 @@ penggunaan dasar
 
 ### Login
 
-penggunaannya :
-[base_url/login]("https://base_url/login")
-requestnya:
-*email
-*password
+# penggunaannya :
+
+# [base_url/login]("https://base_url/login")
+
+# requestnya:
+
+- email
+- password
