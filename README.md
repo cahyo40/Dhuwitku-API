@@ -72,12 +72,12 @@ berikut contoh response dari login
 method: **_POST_**
 
 **request**
-|fungsi |method |url |
-|----- |---- |--- |
-|fetch |GET | `/` |
-|create |POST | `/` |
-|update |PATCH | `/:id`|
-|delete |DELETE | `/:id`|
+| name | type |
+| -------- | ------ |
+| email | string |
+| name | string |
+| username | string |
+| password | string |
 
 _contoh request untuk register_
 
@@ -110,12 +110,12 @@ _contoh request untuk register_
 
 penggunaan dasar
 
-| name     | type   |
-| -------- | ------ |
-| email    | string |
-| name     | string |
-| username | string |
-| password | string |
+| fungsi | method | url    |
+| ------ | ------ | ------ |
+| fetch  | GET    | `/`    |
+| create | POST   | `/`    |
+| update | PATCH  | `/:id` |
+| delete | DELETE | `/:id` |
 
 ## Kategori
 
