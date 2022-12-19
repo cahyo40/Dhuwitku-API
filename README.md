@@ -6,22 +6,22 @@
   - [Login](https://github.com/cahyo40/Dhuwitku-API#login)
   - [Register](https://github.com/cahyo40/Dhuwitku-API#register)
 - [Kategori](https://github.com/cahyo40/Dhuwitku-API#kategori)
-  - [Fetch]
-  - [Create]
-  - [Delete]
-  - [Update]
-  - [Filter]
+  - [Fetch](https://github.com/cahyo40/Dhuwitku-API#kategori)
+  - [Create](https://github.com/cahyo40/Dhuwitku-API#kategori)
+  - [Delete](https://github.com/cahyo40/Dhuwitku-API#kategori)
+  - [Update](https://github.com/cahyo40/Dhuwitku-API#kategori)
+  - [Filter](https://github.com/cahyo40/Dhuwitku-API#kategori)
 - Keuangan
-  - [Fetch]
-  - [Fetch_by_Kategori]
-  - [Fetch_by_Tanggal]
-  - [Create]
-  - [Update]
-  - [Delete]
-  - [Total_Income_Outcome]
-  - [Total_Income_Outcome_Today]
-  - [Total_Income_Outcome_AWeek]
-  - [Total_Income_Outcome_By_Tanggal]
+  - [Fetch](https://github.com/cahyo40/Dhuwitku-API#kategori)
+  - [Fetch_by_Kategori](https://github.com/cahyo40/Dhuwitku-API#kategori)
+  - [Fetch_by_Tanggal](https://github.com/cahyo40/Dhuwitku-API#kategori)
+  - [Create](https://github.com/cahyo40/Dhuwitku-API#kategori)
+  - [Update](https://github.com/cahyo40/Dhuwitku-API#kategori)
+  - [Delete](https://github.com/cahyo40/Dhuwitku-API#kategori)
+  - [Total_Income_Outcome](https://github.com/cahyo40/Dhuwitku-API#kategori)
+  - [Total_Income_Outcome_Today](https://github.com/cahyo40/Dhuwitku-API#kategori)
+  - [Total_Income_Outcome_AWeek](https://github.com/cahyo40/Dhuwitku-API#kategori)
+  - [Total_Income_Outcome_By_Tanggal](https://github.com/cahyo40/Dhuwitku-API#kategori)
 
 ## Auth
 
