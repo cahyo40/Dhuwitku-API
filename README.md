@@ -156,6 +156,35 @@ _response_
 
 </details>
 
+### Update Kategori
+
+<details>
+
+<summary>Contoh res req</summary>
+
+_contoh request_
+
+```json
+{
+  "nama_kategori": "makan",
+  "tipe": "pengeluaran"
+}
+```
+
+_response_
+
+```json
+{
+  "message": "Kategori sukses diperbarui"
+}
+```
+
+```dart
+Text("sukses",style:TextStyle())
+```
+
+</details>
+
 ## Keuangan
 
 penggunaan dasar
