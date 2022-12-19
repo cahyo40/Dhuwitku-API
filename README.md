@@ -181,6 +181,56 @@ _response_
 
 </details>
 
+### Delete Kategori
+
+<details>
+
+<summary>Contoh res req</summary>
+
+_response_
+
+```json
+{
+  "message": "Kategori sukses dihapus"
+}
+```
+
+</details>
+
+### Filter Kategori
+
+<details>
+
+<summary>Contoh res req</summary>
+
+_request_
+
+```json
+{
+  "tipe": "pemasukan"
+}
+```
+
+_response_
+
+```json
+{
+  "message": "Semua Kategori",
+  "item_count": 1,
+  "kategori": [
+    {
+      "id_kategori": "id_kategori",
+      "nama_kategori": "makan",
+      "tipe": "pengeluaran",
+      "createdAt": "2022-12-19T14:57:32.000Z",
+      "updatedAt": "2022-12-19T14:57:32.000Z"
+    }
+  ]
+}
+```
+
+</details>
+
 ## Keuangan
 
 penggunaan dasar
