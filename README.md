@@ -5,7 +5,7 @@
 - [Auth](https://github.com/cahyo40/Dhuwitku-API#auth)
   - [Login](https://github.com/cahyo40/Dhuwitku-API#login)
   - [Register](https://github.com/cahyo40/Dhuwitku-API#register)
-- Kategori
+- [Kategori](https://github.com/cahyo40/Dhuwitku-API#kategori)
 - Keuangan
 
 ## Auth
@@ -50,7 +50,7 @@ berikut contoh response dari login
 
 **penggunaannya :**
 
-[base_url/register]("https://base_url/register")
+[base_url/register](https://base_url/register)
 
 **request**
 | name|type|
@@ -86,3 +86,7 @@ _contoh request untuk register_
   }
 }
 ```
+
+## Kategori
+
+penggunaan dasar
