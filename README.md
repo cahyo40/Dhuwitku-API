@@ -34,18 +34,6 @@ penggunaan dasar
 
 ### Login
 
-**penggunaannya :**
-
-[base_url/login](https://base_url/login)
-
-method: **_POST_**
-
-**request**
-| name|type|
-|-----|----|
-|email|string|
-|password|string|
-
 _contoh request untuk login_
 
 ```json
@@ -55,11 +43,7 @@ _contoh request untuk login_
 }
 ```
 
-**response**
-
-untuk response akan menghasilkan data berupa token dari JWT.
-
-berikut contoh response dari login
+_response_
 
 ```json
 {
@@ -72,18 +56,6 @@ berikut contoh response dari login
 
 **penggunaannya :**
 
-[base_url/register](https://base_url/register)
-
-method: **_POST_**
-
-**request**
-| name | type |
-| -------- | ------ |
-| email | string |
-| name | string |
-| username | string |
-| password | string |
-
 _contoh request untuk register_
 
 ```json
@@ -95,7 +67,7 @@ _contoh request untuk register_
 }
 ```
 
-**response**
+_response_
 
 ```json
 {
