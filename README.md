@@ -34,7 +34,7 @@ penggunaan dasar
 
 ### Login
 
-<show>
+<details>
 
 _contoh request_
 
@@ -54,7 +54,7 @@ _response_
 }
 ```
 
-</show>
+</details>
 
 ### Register
 
