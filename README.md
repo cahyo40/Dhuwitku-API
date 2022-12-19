@@ -2,6 +2,12 @@
 
 **menggunakan node js, express js, mysql, Jwt dengan enkripsi dari bcrypt**
 
+- Auth
+  - [Login]("https://github.com/cahyo40/Dhuwitku-API#login")
+  - Register
+- Kategori
+- Keuangan
+
 ## Auth
 
 penggunaan dasar
