@@ -39,3 +39,48 @@ berikut contoh response dari login
   "token": "Token"
 }
 ```
+
+### Register
+
+**penggunaannya :**
+
+[base_url/register]("https://base_url/register")
+
+**request**
+| name|type|
+|-----|----|
+|email|string|
+|name|string|
+|username|string|
+|password|string|
+
+_contoh request untuk register_
+
+```json
+{
+  "email": "mail@mail.com",
+  "name": "dhuwitku",
+  "username": "dhuwitkuu",
+  "password": "password"
+}
+```
+
+**response**
+
+untuk response akan menghasilkan data berupa token dari JWT.
+
+berikut contoh response dari register
+
+```json
+{
+  "message": "Created user successfully",
+  "data": {
+    "email": "mail@mail.com",
+    "name": "name",
+    "username": "username",
+    "password": "password hasil enkripsi",
+    "createdAt": "2022-12-19T15:32:17.000Z",
+    "updatedAt": "2022-12-19T15:32:17.000Z"
+  }
+}
+```
