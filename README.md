@@ -100,7 +100,7 @@ _contoh request_
 ```json
 {
   "nama_kategori": "makan", // String
-  "tipe": "pengeluaran" // pengeluran | pemasukan
+  "tipe": "pengeluaran" /* pengeluran | pemasukan */
 }
 ```
 
