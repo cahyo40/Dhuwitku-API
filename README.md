@@ -10,7 +10,7 @@ penggunaan dasar
 
 # penggunaannya :
 
-# [base_url/login]("https://base_url/login")
+[base_url/login]("https://base_url/login")
 
 # requestnya:
 
