@@ -34,7 +34,8 @@ penggunaan dasar
 
 ### Login
 
-<details>
+<show>
+
 _contoh request_
 
 ```json
@@ -53,7 +54,7 @@ _response_
 }
 ```
 
-</details>
+</show>
 
 ### Register
 
