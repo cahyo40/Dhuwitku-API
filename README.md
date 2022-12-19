@@ -111,15 +111,6 @@ penggunaan dasar
 
 <summary>Contoh res req</summary>
 
-_contoh request_
-
-```json
-{
-  "nama_kategori": "makan",
-  "tipe": "pengeluaran"
-}
-```
-
 _response_
 
 ```json
@@ -140,19 +131,44 @@ _response_
 
 </details>
 
+### Create Kategori
+
+<details>
+
+<summary>Contoh res req</summary>
+
+_contoh request_
+
+```json
+{
+  "nama_kategori": "makan",
+  "tipe": "pengeluaran"
+}
+```
+
+_response_
+
+```json
+{
+  "message": "Kategori sukses ditambahkan"
+}
+```
+
+</details>
+
 ## Keuangan
 
 penggunaan dasar
 
-| fungsi            | method | url                    | request                                                             |
-| ----------------- | ------ | ---------------------- | ------------------------------------------------------------------- |
-| fetch             | GET    | `/keuangan/`           | ~                                                                   |
-| fetch by kategori | POST   | `/keuangan/filter`     | kategori_id                                                         |
-| fetch by tanggal  | POST   | `/keuangan/range`      | start_date,end_date                                                 |
-| create            | POST   | `/keuangan/`           | judul,deskripsi,uang,pengeluaran,kategori_id,email_user             |
-| update            | PATCH  | `/keuangan/:id`        | id_keuangan,judul,deskripsi,uang,pengeluaran,kategori_id,email_user |
-| delete            | DELETE | `/keuangan/:id`        | id_keuangan                                                         |
-| total             | GET    | `/keuangan/total`      | ~                                                                   |
-| total hari ini    | GET    | `/keuangan/totalToday` | ~                                                                   |
-| total minggu ini  | GET    | `/keuangan/totalWeek`  | ~                                                                   |
-| total by tanggal  | GET    | `/keuangan/totalByTgl` | tanggal                                                             |
+| fungsi            | method | url                    | request                                                    |
+| ----------------- | ------ | ---------------------- | ---------------------------------------------------------- |
+| fetch             | GET    | `/keuangan/`           | ~                                                          |
+| fetch by kategori | POST   | `/keuangan/filter`     | kategori_id                                                |
+| fetch by tanggal  | POST   | `/keuangan/range`      | start_date,end_date                                        |
+| create            | POST   | `/keuangan/`           | judul,deskripsi,uang,pengeluaran,kategori_id,email_user    |
+| update            | PATCH  | `/keuangan/:id`        | id,judul,deskripsi,uang,pengeluaran,kategori_id,email_user |
+| delete            | DELETE | `/keuangan/:id`        | id                                                         |
+| total             | GET    | `/keuangan/total`      | ~                                                          |
+| total hari ini    | GET    | `/keuangan/totalToday` | ~                                                          |
+| total minggu ini  | GET    | `/keuangan/totalWeek`  | ~                                                          |
+| total by tanggal  | GET    | `/keuangan/totalByTgl` | tanggal                                                    |
