@@ -58,6 +58,8 @@ _response_
 
 ### Register
 
+<details>
+
 _contoh request_
 
 ```json
@@ -85,6 +87,8 @@ _response_
 }
 ```
 
+</details>
+
 ## Kategori
 
 penggunaan dasar
@@ -98,6 +102,8 @@ penggunaan dasar
 | filter kategori | POST   | `/kategori/filter` | tipe                  |
 
 ### Fetch Kategori
+
+<details>
 
 _contoh request_
 
@@ -125,6 +131,8 @@ _response_
   ]
 }
 ```
+
+</details>
 
 ## Keuangan
 
