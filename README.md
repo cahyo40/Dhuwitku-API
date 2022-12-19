@@ -6,7 +6,22 @@
   - [Login](https://github.com/cahyo40/Dhuwitku-API#login)
   - [Register](https://github.com/cahyo40/Dhuwitku-API#register)
 - [Kategori](https://github.com/cahyo40/Dhuwitku-API#kategori)
+  - [Fetch]
+  - [Create]
+  - [Delete]
+  - [Update]
+  - [Filter]
 - Keuangan
+  - [Fetch]
+  - [Fetch_by_Kategori]
+  - [Fetch_by_Tanggal]
+  - [Create]
+  - [Update]
+  - [Delete]
+  - [Total_Income_Outcome]
+  - [Total_Income_Outcome_Today]
+  - [Total_Income_Outcome_AWeek]
+  - [Total_Income_Outcome_By_Tanggal]
 
 ## Auth
 
