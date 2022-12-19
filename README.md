@@ -4,6 +4,7 @@
 
 - Auth
   - [Login]("https://github.com/cahyo40/Dhuwitku-API#login")
+  - [link ke petanikode](https://www.petanikode.com/)
   - Register
 - Kategori
 - Keuangan
