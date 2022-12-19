@@ -36,6 +36,8 @@ penggunaan dasar
 
 <details>
 
+<summary>Contoh res req</summary>
+
 _contoh request_
 
 ```json
@@ -59,6 +61,8 @@ _response_
 ### Register
 
 <details>
+
+<summary>Contoh res req</summary>
 
 _contoh request_
 
@@ -104,6 +108,8 @@ penggunaan dasar
 ### Fetch Kategori
 
 <details>
+
+<summary>Contoh res req</summary>
 
 _contoh request_
 
