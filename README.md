@@ -1,6 +1,8 @@
 # Rest Api buat aplikasi Dhuwitku
 
-**menggunakan node js, express js, mysql, Jwt dengan enkripsi dari bcrypt**
+**Menggunakan node js, express js, mysql, Jwt dengan enkripsi dari bcrypt**
+
+**_masih localhost_**
 
 - [Auth](https://github.com/cahyo40/Dhuwitku-API#auth)
   - [Login](https://github.com/cahyo40/Dhuwitku-API#login)
