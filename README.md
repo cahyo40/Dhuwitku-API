@@ -1,6 +1,6 @@
 # Rest Api buat aplikasi Dhuwitku
 
-**menggunakan node js, express js, mysql**
+**menggunakan node js, express js, mysql, Jwt dengan enkripsi dari bcrypt**
 
 ## Auth
 
@@ -18,7 +18,21 @@ penggunaan dasar
 |email|string|
 |password|string|
 
+_contoh_
+
+```json
+{
+  "email": "email",
+  "password": "password"
+}
+```
+
 **response**
+untuk response akan menghasilkan data berupa token dari JWT.
+
+---
+
+berikut contoh response dari login
 
 ```json
 {
