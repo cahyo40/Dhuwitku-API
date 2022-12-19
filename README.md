@@ -3,7 +3,7 @@
 **menggunakan node js, express js, mysql, Jwt dengan enkripsi dari bcrypt**
 
 - Auth
-  - [Login]("https://github.com/cahyo40/Dhuwitku-API#login")
+  - [Login](https://github.com/cahyo40/Dhuwitku-API#login)
   - [link ke petanikode](https://www.petanikode.com/)
   - Register
 - Kategori
@@ -17,7 +17,7 @@ penggunaan dasar
 
 **penggunaannya :**
 
-[base_url/login]("https://base_url/login")
+[base_url/login](https://base_url/login)
 
 **request**
 | name|type|
