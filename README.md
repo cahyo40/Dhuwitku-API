@@ -27,10 +27,11 @@
 
 penggunaan dasar
 
-| fungsi   | method | url         | request                      |
-| -------- | ------ | ----------- | ---------------------------- |
-| login    | POST   | `/login`    | email,password               |
-| register | POST   | `/register` | email,name,username,password |
+| fungsi      | method | url            | request                      |
+| ----------- | ------ | -------------- | ---------------------------- |
+| login       | POST   | `/login`       | email,password               |
+| register    | POST   | `/register`    | email,name,username,password |
+| login token | GET    | `/login/token` | ~                            |
 
 ### Login
 
@@ -79,15 +80,33 @@ _response_
 
 ```json
 {
-  "message": "Created user successfully",
-  "data": {
-    "email": "mail@mail.com",
-    "name": "name",
-    "username": "username",
-    "password": "password hasil enkripsi",
-    "createdAt": "2022-12-19T15:32:17.000Z",
-    "updatedAt": "2022-12-19T15:32:17.000Z"
-  }
+  "email": "cahyoracher@gmail.com",
+  "name": "Cahyo",
+  "username": "iyohoo",
+  "password": "$2b$11$9UBsOsEEMF7TKLWRL4k9pe/FFdgvMh5H97hs5N6pgjWBv35MeBFBG",
+  "createdAt": "2022-12-19T10:43:54.000Z",
+  "updatedAt": "2022-12-19T10:43:54.000Z"
+}
+```
+
+</details>
+
+### Login Token
+
+<details>
+
+<summary>Contoh request response</summary>
+
+_response_
+
+```json
+{
+  "email": "cahyoracher@gmail.com",
+  "name": "Cahyo",
+  "username": "iyohoo",
+  "password": "$2b$11$9UBsOsEEMF7TKLWRL4k9pe/FFdgvMh5H97hs5N6pgjWBv35MeBFBG",
+  "createdAt": "2022-12-19T10:43:54.000Z",
+  "updatedAt": "2022-12-19T10:43:54.000Z"
 }
 ```
 
