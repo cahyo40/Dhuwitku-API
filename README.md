@@ -2,8 +2,6 @@
 
 **Menggunakan node js, express js, mysql, Jwt dengan enkripsi dari bcrypt**
 
-**_masih localhost_**
-
 - [Auth](https://github.com/cahyo40/Dhuwitku-API#auth)
   - [Login](https://github.com/cahyo40/Dhuwitku-API#login)
   - [Register](https://github.com/cahyo40/Dhuwitku-API#register)
@@ -237,6 +235,8 @@ _response_
 
 penggunaan dasar
 
+**Headers Authorization: Bearer Token**
+
 | fungsi            | method | url                    | request                                                    |
 | ----------------- | ------ | ---------------------- | ---------------------------------------------------------- |
 | fetch             | GET    | `/keuangan/`           | ~                                                          |
@@ -249,3 +249,241 @@ penggunaan dasar
 | total hari ini    | GET    | `/keuangan/totalToday` | ~                                                          |
 | total minggu ini  | GET    | `/keuangan/totalWeek`  | ~                                                          |
 | total by tanggal  | GET    | `/keuangan/totalByTgl` | tanggal                                                    |
+
+### Fetch Keuangan
+
+<details>
+
+<summary>Contoh response </summary>
+
+_response_
+
+```json
+{
+  "message": "Semua data keuangan",
+  "item_count": 1,
+  "email": "email@mail.com",
+  "keuangan": [
+    {
+      "id": "id",
+      "judul": "Mie Ayam kuah soto",
+      "deskripsi": "enak",
+      "uang": 15000,
+      "pengeluaran": 1,
+      "kategori_id": "kategori_id",
+      "tanggal": "2022-12-19",
+      "email_user": "email@mail.com",
+      "createdAt": "2022-12-19T13:57:55.000Z",
+      "updatedAt": "2022-12-19T13:57:55.000Z"
+    }
+  ]
+}
+```
+
+</details>
+
+### Fetch by Kategori
+
+<details>
+
+<summary>Contoh request dan response </summary>
+
+_request_
+
+```json
+{
+  "kategori_id": "id"
+}
+```
+
+_response_
+
+```json
+{
+  "message": "Semua data keuangan",
+  "item_count": 1,
+  "email": "email@mail.com",
+  "keuangan": [
+    {
+      "id": "id",
+      "judul": "Mie Ayam kuah soto",
+      "deskripsi": "enak",
+      "uang": 15000,
+      "pengeluaran": 1,
+      "kategori_id": "kategori_id",
+      "tanggal": "2022-12-19",
+      "email_user": "email@mail.com",
+      "createdAt": "2022-12-19T13:57:55.000Z",
+      "updatedAt": "2022-12-19T13:57:55.000Z"
+    }
+  ]
+}
+```
+
+</details>
+
+### Fetch by Tanggal
+
+<details>
+
+<summary>Contoh request dan response </summary>
+
+_request_
+
+```json
+{
+  "start_date": "2022-12-10",
+  "end_date": "2022-12-25"
+}
+```
+
+_response_
+
+```json
+{
+  "message": "Semua data keuangan",
+  "item_count": 1,
+  "email": "email@mail.com",
+  "keuangan": [
+    {
+      "id": "id",
+      "judul": "Mie Ayam kuah soto",
+      "deskripsi": "enak",
+      "uang": 15000,
+      "pengeluaran": 1,
+      "kategori_id": "kategori_id",
+      "tanggal": "2022-12-19",
+      "email_user": "email@mail.com",
+      "createdAt": "2022-12-19T13:57:55.000Z",
+      "updatedAt": "2022-12-19T13:57:55.000Z"
+    }
+  ]
+}
+```
+
+</details>
+
+### Create Keuangan
+
+<details>
+
+<summary>Contoh request dan response </summary>
+
+_request_
+
+```json
+{
+  "judul": "Mie Ayam kuah soto",
+  "deskripsi": "mie ayam",
+  "uang": 15000,
+  "pengeluaran": 0,
+  "kategori_id": "kategori_id",
+  "email_user": "mail@mail.com"
+}
+```
+
+`NOTE: pengeluaran berisi 0 atau 1, 0 untuk pemasukan dan 1 untuk pengeluaran`
+
+_response_
+
+```json
+{
+  "message": "Keuangan sukses ditambahkan"
+}
+```
+
+</details>
+
+### Update Keuangan
+
+<details>
+
+<summary>Contoh request dan response </summary>
+
+_request_
+
+```json
+{
+  "judul": "Mie Ayam kuah soto",
+  "deskripsi": "mie ayam",
+  "uang": 15000,
+  "pengeluaran": 0,
+  "kategori_id": "kategori_id",
+  "email_user": "mail@mail.com"
+}
+```
+
+`NOTE: pengeluaran berisi 0 atau 1, 0 untuk pemasukan dan 1 untuk pengeluaran`
+
+_response_
+
+```json
+{
+  "message": "Keuangan sukses diperbarui"
+}
+```
+
+</details>
+
+### Delete Keuangan
+
+<details>
+
+<summary>Contoh response </summary>
+
+_response_
+
+```json
+{
+  "message": "Keuangan sukses di hapus"
+}
+```
+
+</details>
+
+### Total Pemasukan dan Pengeluaran, Hari ini & Minggu ini
+
+<details>
+
+<summary>Contoh response </summary>
+
+_response_
+
+```json
+{
+  "total": {
+    "pemasukan": 30000,
+    "pengeluaran": 23000
+  }
+}
+```
+
+</details>
+
+### Total Pemasukan dan Pengeluaran by Tanggal
+
+<details>
+
+<summary>Contoh response </summary>
+
+_request_
+
+```json
+{
+  "tanggal": "2022-12-19"
+}
+```
+
+_response_
+
+```json
+{
+  "tanggal": "2022-12-19",
+  "total": {
+    "pemasukan": 8000,
+    "pengeluaran": 25000
+  }
+}
+```
+
+</details>
