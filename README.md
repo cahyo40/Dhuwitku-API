@@ -97,6 +97,8 @@ _response_
 
 <summary>Contoh request response</summary>
 
+**Headers Authorization: Bearer Token**
+
 _response_
 
 ```json
