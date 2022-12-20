@@ -80,10 +80,10 @@ _response_
 
 ```json
 {
-  "email": "cahyoracher@gmail.com",
-  "name": "Cahyo",
-  "username": "iyohoo",
-  "password": "$2b$11$9UBsOsEEMF7TKLWRL4k9pe/FFdgvMh5H97hs5N6pgjWBv35MeBFBG",
+  "email": "mail@gmail.com",
+  "name": "name",
+  "username": "username",
+  "password": "password",
   "createdAt": "2022-12-19T10:43:54.000Z",
   "updatedAt": "2022-12-19T10:43:54.000Z"
 }
@@ -101,10 +101,10 @@ _response_
 
 ```json
 {
-  "email": "cahyoracher@gmail.com",
-  "name": "Cahyo",
-  "username": "iyohoo",
-  "password": "$2b$11$9UBsOsEEMF7TKLWRL4k9pe/FFdgvMh5H97hs5N6pgjWBv35MeBFBG",
+  "email": "mail@gmail.com",
+  "name": "name",
+  "username": "username",
+  "password": "password",
   "createdAt": "2022-12-19T10:43:54.000Z",
   "updatedAt": "2022-12-19T10:43:54.000Z"
 }
