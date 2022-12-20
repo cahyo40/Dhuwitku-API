@@ -15,6 +15,7 @@ module.exports = function (app) {
 
     app.route('/login').post(users.login);
     app.route('/register').post(users.register);
+    app.route('/login/token').get(users.loginToken);
 
     app.route('/kategori').get(ktg.fetch);
     app.route('/kategori').post(ktg.create);
