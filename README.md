@@ -7,21 +7,21 @@
   - [Register](https://github.com/cahyo40/Dhuwitku-API#register)
 - [Kategori](https://github.com/cahyo40/Dhuwitku-API#kategori)
   - [Fetch](https://github.com/cahyo40/Dhuwitku-API#fetch-kategori)
-  - [Create](https://github.com/cahyo40/Dhuwitku-API#kategori)
-  - [Delete](https://github.com/cahyo40/Dhuwitku-API#kategori)
-  - [Update](https://github.com/cahyo40/Dhuwitku-API#kategori)
-  - [Filter](https://github.com/cahyo40/Dhuwitku-API#kategori)
+  - [Create](https://github.com/cahyo40/Dhuwitku-API#create-kategori)
+  - [Delete](https://github.com/cahyo40/Dhuwitku-API#delete-kategori)
+  - [Update](https://github.com/cahyo40/Dhuwitku-API#update-kategori)
+  - [Filter](https://github.com/cahyo40/Dhuwitku-API#filter-kategori)
 - [Keuangan](https://github.com/cahyo40/Dhuwitku-API#keuangan)
-  - [Fetch](https://github.com/cahyo40/Dhuwitku-API#kategori)
-  - [Fetch_by_Kategori](https://github.com/cahyo40/Dhuwitku-API#kategori)
-  - [Fetch_by_Tanggal](https://github.com/cahyo40/Dhuwitku-API#kategori)
-  - [Create](https://github.com/cahyo40/Dhuwitku-API#kategori)
-  - [Update](https://github.com/cahyo40/Dhuwitku-API#kategori)
-  - [Delete](https://github.com/cahyo40/Dhuwitku-API#kategori)
-  - [Total_Income_Outcome](https://github.com/cahyo40/Dhuwitku-API#kategori)
-  - [Total_Income_Outcome_Today](https://github.com/cahyo40/Dhuwitku-API#kategori)
-  - [Total_Income_Outcome_AWeek](https://github.com/cahyo40/Dhuwitku-API#kategori)
-  - [Total_Income_Outcome_By_Tanggal](https://github.com/cahyo40/Dhuwitku-API#kategori)
+  - [Fetch](https://github.com/cahyo40/Dhuwitku-API#fetch-keuangan)
+  - [Fetch_by_Kategori](https://github.com/cahyo40/Dhuwitku-API#fetch-by-kategori)
+  - [Fetch_by_Tanggal](https://github.com/cahyo40/Dhuwitku-API#fetch-by-tanggal)
+  - [Create](https://github.com/cahyo40/Dhuwitku-API#create-keuangan)
+  - [Update](https://github.com/cahyo40/Dhuwitku-API#update-keuangan)
+  - [Delete](https://github.com/cahyo40/Dhuwitku-API#delete-keuangan)
+  - [Total_Income_Outcome](https://github.com/cahyo40/Dhuwitku-API#total-pemasukan-dan-pengeluaran-hari-ini--minggu-ini)
+  - [Total_Income_Outcome_Today](https://github.com/cahyo40/Dhuwitku-API#total-pemasukan-dan-pengeluaran-hari-ini--minggu-ini)
+  - [Total_Income_Outcome_AWeek](https://github.com/cahyo40/Dhuwitku-API#total-pemasukan-dan-pengeluaran-hari-ini--minggu-ini)
+  - [Total_Income_Outcome_By_Tanggal](https://github.com/cahyo40/Dhuwitku-API#total-pemasukan-dan-pengeluaran-by-tanggal)
 
 ## Auth
 
@@ -36,7 +36,7 @@ penggunaan dasar
 
 <details>
 
-<summary>Contoh res req</summary>
+<summary>Contoh request dan response</summary>
 
 _contoh request_
 
@@ -62,7 +62,7 @@ _response_
 
 <details>
 
-<summary>Contoh res req</summary>
+<summary>Contoh request response</summary>
 
 _contoh request_
 
@@ -109,7 +109,7 @@ penggunaan dasar
 
 <details>
 
-<summary>Contoh res req</summary>
+<summary>Contoh response</summary>
 
 _response_
 
@@ -135,7 +135,7 @@ _response_
 
 <details>
 
-<summary>Contoh res req</summary>
+<summary>Contoh request dan response</summary>
 
 _contoh request_
 
@@ -160,9 +160,9 @@ _response_
 
 <details>
 
-<summary>Contoh res req</summary>
+<summary>Contoh request  dan response</summary>
 
-_contoh request_
+_request_
 
 ```json
 {
@@ -185,7 +185,7 @@ _response_
 
 <details>
 
-<summary>Contoh res req</summary>
+<summary>Contoh response</summary>
 
 _response_
 
@@ -201,7 +201,7 @@ _response_
 
 <details>
 
-<summary>Contoh res req</summary>
+<summary>Contoh request response</summary>
 
 _request_
 
@@ -464,7 +464,7 @@ _response_
 
 <details>
 
-<summary>Contoh response </summary>
+<summary>Contoh request dan response </summary>
 
 _request_
 
