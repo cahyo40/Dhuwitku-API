@@ -152,8 +152,8 @@ exports.total = async function (req, res) {
 
 
     const data = {
-        "pemasukan": isNull(total_pengeluaran)['total_pengeluaran'],
-        "pengeluaran": isNull(total_pemasukan)['total_pemasukan'],
+        "pengeluaran": isNull(total_pengeluaran)['total_pengeluaran'],
+        "pemasukan": isNull(total_pemasukan)['total_pemasukan'],
     }
     res.json({
         "total": data,
